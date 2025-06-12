@@ -39,3 +39,4 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	@echo "Compile $<..."
 	$(CC) $(CFLAGS) -I$(INC_DIR) -c $< -o $@
 
+# 
